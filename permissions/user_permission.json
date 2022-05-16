@@ -1,0 +1,18 @@
+{
+	"admin": {
+		"create-users" : true,
+		"create-product" : true,
+		"edit-product" : true,
+		"list-product" : true,
+		"view-product" : true,
+		"delete-product" : true,
+		"delete-users" : true
+	},
+	"normal": {
+		"create-product" : true,
+		"edit-product" : true,
+		"list-product" : true,
+		"view-product" : true,
+		"delete-product" : true
+	}
+}

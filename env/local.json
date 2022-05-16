@@ -1,0 +1,34 @@
+{
+  "SALT": "$2a$10$xEfcPKFr86e9XDKhlrDaI.",
+  "ADMIN_KEY" : "random",
+  "PORT" : 5000,
+  "mongo": {
+    "replicas": ["localhost:27017"],
+    "database": "product_management",
+    "username": "user1",
+    "password": "user123",
+    "options": {
+      "socketTimeoutMS": 0,
+      "keepAlive": true,
+	  "authSource": "product_management",
+      "w": "majority"
+    }
+  },
+  "login": {
+		"WARNING_ATTEMPTS_COUNT": 3,
+		"MAX_LOGIN_ATTEMPTS": 5,
+		"USER_LOCK_HOUR": 1,
+		"REMEMBER_ME_HOURS": 8760,
+		"LOGIN_TOKEN_HOURS": 1
+	},
+  "supported_user_types" : [
+    "admin", 
+    "normal"
+  ],
+  "pagination" : {
+    "DEFAULT_SKIP": 0,
+	  "DEFAULT_SORT_DIRECTION": -1,
+    "pageSize": 10,
+    "MAX_LIMIT" : 10
+  }
+}

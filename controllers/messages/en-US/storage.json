@@ -1,0 +1,7 @@
+{
+    "S3_ERROR" : {
+        "code" : "S3_ERROR",
+        "message" : "Error while performing s3 operations. %{err}",
+        "field" : null
+    }
+}

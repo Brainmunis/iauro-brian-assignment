@@ -1,0 +1,43 @@
+{
+    "LABEL_REQUIRED" : {
+        "code" : "LABEL_REQUIRED",
+        "message" : "%{key} label is required field.",
+        "field" : "label"
+    },
+    "INVALID_ID" : {
+        "code" : "INVALID_ID",
+        "message" : "Invalid %{key} ID provided",
+        "field" : null
+    },
+    "ERROR_IMAGE_UPLOAD" : {
+        "code" : "ERROR_IMAGE_UPLOAD",
+        "message" : "Error uploading %{key} image. please try again.",
+        "field" : null
+    },
+    "CREATE_ERROR" : {
+        "code" : "CREATE_ERROR",
+        "message" : "Error creating %{key}. please try again.",
+        "field" : null
+    },
+    "UNSUPPORTED_LOOKUP" : {
+        "code" : "UNSUPPORTED_LOOKUP",
+        "message" : "%{key} is bad string.",
+        "field" : null
+    },
+    "REQ_BODY_REQUIRED" : {
+        "code" : "REQ_BODY_REQUIRED",
+        "message" : "%{key} is required field.",
+        "field" : "${key}"
+    },
+    "BOOLEAN_REQUIRED" : {
+        "code" : "BOOLEAN_REQUIRED",
+        "message" : "%{key} should be either true or false.",
+        "field" : "${key}"
+    },
+    "ALREADY_EXISTS" : {
+        "code" : "ALREADY_EXISTS",
+        "message" : "%{key} already exists.",
+        "field" : "${key}"
+    }
+
+}

@@ -1,0 +1,22 @@
+{
+    "FULLNAME_REQUIRED" : {
+        "code" : "FULLNAME_REQUIRED",
+        "message" : "Name is required field",
+        "field" : "fullname"
+    },
+    "STRING_REQUIRED" : {
+        "code" : "STRING_REQUIRED",
+        "message" : "%{label} is required field.",
+        "field" : "%{label}"
+    },
+    "STRING_MAX_LENGTH" : {
+        "code" : "STRING_MAX_LENGTH",
+        "message" : "Maximum %{length} chars supported for %{label}.",
+        "field" : "%{label}"
+    },
+    "STRING_MIN_LENGTH" : {
+        "code" : "STRING_MIN_LENGTH",
+        "message" : "Minimun %{length} chars required for %{label}.",
+        "field" : "%{label}"
+    }
+}

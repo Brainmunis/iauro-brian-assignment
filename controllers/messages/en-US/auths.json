@@ -1,0 +1,94 @@
+{
+    "FULLNAME_REQUIRED" : {
+        "code" : "FULLNAME_REQUIRED",
+        "message" : "Name is required field",
+        "field" : "fullname"
+    },
+    "EMAIL_ADDRESS_REQUIRED" : {
+        "code" : "EMAIL_ADDRESS_REQUIRED",
+        "message" : "Email is required field",
+        "field" : "email_address"
+    },
+    "INVALID_EMAIL_FORMAT" : {
+        "code" : "INVALID_EMAIL_FORMAT",
+        "message" : "Invalid email format.",
+        "field" : "email_address"
+    },
+    "MESSAGE_REQUIRED" : {
+        "code" : "MESSAGE_REQUIRED",
+        "message" : "Message is required field",
+        "field" : "email_address"
+    },
+    "MESSAGE_LIMIT_REACHED" : {
+        "code" : "MESSAGE_LIMIT_REACHED",
+        "message" : "Message too long max %{length} char(s) supports.",
+        "field" : "message"
+    },
+    "FULLNAME_LIMIT_REACHED" : {
+        "code" : "FULLNAME_LIMIT_REACHED",
+        "message" : "Fullname too long max %{length} char(s) supports.",
+        "field" : "fullname"
+    },
+    "CATAGORY_REQUIRED" : {
+        "code" : "CATAGORY_REQUIRED",
+        "message" : "Catagory is required field",
+        "field" : "email_address"
+    },
+    "CATAGORY_NOT_SUPPORTED" : {
+        "code" : "CATAGORY_NOT_SUPPORTED",
+        "message" : "Provided catagory level not supported.",
+        "field" : "catagory"
+    },
+    "INVALID_USER_TYPE" : {
+        "code" : "INVALID_USER_TYPE",
+        "message" : "Provided user type not supported",
+        "field" : "user_type"
+    },
+    "USER_ALREADY_EXISTS" : {
+        "code" : "USER_ALREADY_EXISTS",
+        "message" : "User already exists",
+        "field" : "email_address"
+    },
+    "PASSWORD_REQUIRED" : {
+        "code" : "PASSWORD_REQUIRED",
+        "message" : "Password is required field",
+        "field" : "password"
+    },
+    "PASSWORD_MIN_LENGTH" :{
+        "code" : "INVALID_PASSWORD_LENGTH",
+        "message" : "Password length is not valid min char 3 and maximum char 100",
+        "field" : "password"
+    },
+    "PASSWORD_MAX_LENGTH" :{
+        "code" : "INVALID_PASSWORD_LENGTH",
+        "message" : "Password length is not valid min char 3 and maximum char 100",
+        "field" : "password"
+    },
+    "INVALID_PASSWORD_PATTERN" : {
+        "code" : "INVALID_PASSWORD_PATTERN",
+        "message" : "Password should contains minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character.",
+        "field" : "password"
+    },
+    "INVALID_CREDENTIALS": {
+		"code": "INVALID_CREDENTIALS",
+		"message": "Invalid login credentials",
+		"field": null
+	},
+    "USER_LOCK_EXEEDED_LOGIN_ATTEMPTS": {
+		"code": "USER_LOCK_EXEEDED_LOGIN_ATTEMPTS",
+		"message": "You have exceeded the maximum number of login attempts.",
+		"field": null,
+		"lock_until": "%{date}"
+	},
+	"INVALID_CREDENTIALS_WARNING": {
+		"code": "INVALID_CREDENTIALS_WARNING",
+		"message": "Invalid credentials! You have %{count} attempts before your account is locked for 60 minutes",
+		"field": null
+	},
+	"INVALID_CREDENTIALS_LOCKED": {
+		"code": "INVALID_CREDENTIALS_LOCKED",
+		"message": "Invlaid login credentials. You have exceeded the maximum number of login attempts.",
+		"field": null,
+		"lock_until": "%{date}"
+	}
+}
